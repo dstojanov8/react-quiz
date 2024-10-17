@@ -1,3 +1,9 @@
+# Project details
+
+In this project useReducer hook is implemented to show how we can manage the entire state inside one object. 
+Our reducer state contains a list of questions and more importantly status field where we can set different 
+states of our app.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
