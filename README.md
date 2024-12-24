@@ -2,6 +2,8 @@
 
 Small quiz app for testing React knowledge. There are 15 questions a timer and a score is being tracked based on the answers that are provided. Some questions are worth more points and some less.
 
+In this project _useReducer_ hook is implemented to show how we can manage the entire state inside one object. Our reducer state contains a list of questions and more importantly status field where we can set different states of our app.
+
 ### There are two versions of the app:
 
 1. The old version, source code is in **src-no-context** directory. Here we have a _useReducer_ hook implemented to handle all the logic: keeps the score, tracks the time and handles question numbers and answers. In the reducer we have all the actions listed and a dispatch function is used to call them. This version uses prop drilling to pass all the information/values down to child components
